@@ -6,3 +6,5 @@ part 'splash_primary.dart';
 part 'splash_secondary.dart';
 part 'get_started_primary.dart';
 part 'get_started_secondary.dart';
+part 'signin_primary.dart';
+part 'signin_secondary.dart';

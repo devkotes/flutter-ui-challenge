@@ -51,7 +51,10 @@ class _GetStartedSecondaryState extends State<GetStartedSecondary> {
                         padding:
                             EdgeInsets.symmetric(vertical: 16, horizontal: 85),
                         primary: Color(0xFFAFEA0D)),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (_) => SignPrimary()));
+                    },
                     child: Text('Shape My Body',
                         style: GoogleFonts.lato(
                             fontSize: 18,
