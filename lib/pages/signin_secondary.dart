@@ -122,7 +122,12 @@ class _SigninSecondaryState extends State<SigninSecondary> {
                         shape: RoundedRectangleBorder(
                             borderRadius:
                                 BorderRadius.all(Radius.circular(60)))),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (_) => EmptyStatePrimary()));
+                    },
                     child: Text(
                       'Create New Account',
                       style: GoogleFonts.openSans(
