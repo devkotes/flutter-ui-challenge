@@ -41,7 +41,12 @@ class _EmptyStateSecondaryState extends State<EmptyStateSecondary> {
               SizedBox(
                 height: 60,
               ),
-              Image.asset('assets/img/es_btn.png')
+              InkWell(
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (_) => RatingPrimary()));
+                  },
+                  child: Image.asset('assets/img/es_btn.png'))
             ],
           ),
         ),

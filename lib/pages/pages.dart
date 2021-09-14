@@ -9,3 +9,5 @@ part 'signin_primary.dart';
 part 'signin_secondary.dart';
 part 'empty_state_primary.dart';
 part 'empty_state_secondary.dart';
+part 'rating_primary.dart';
+part 'rating_secondary.dart';
