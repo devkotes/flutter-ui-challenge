@@ -71,7 +71,10 @@ class _RatingSecondaryState extends State<RatingSecondary> {
                       primary: Color(0xFF4074E6),
                       padding:
                           EdgeInsets.symmetric(horizontal: 77, vertical: 15)),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (_) => PricePrimary()));
+                  },
                   child: Text(
                     'Submit Review',
                     style:
